@@ -1,4 +1,4 @@
-# RandomPDBGen# RandomSequencePDBGenerator
+# RandomSequencePDBGenerator
 
 ## Description
 This project generates multiple RIB files containing random sequence length, amino acids residues, and their phi and psi angles. Each RIB file is then utilized to produce its corresponding PDB file using ribosome Linux tools. The entire process is streamlined through a single base file, which manage the compilation, execution, and file generation steps.
@@ -9,7 +9,7 @@ This project generates multiple RIB files containing random sequence length, ami
    - Ensure that you have a C++ compiler installed on your system.
    - You do not required ribosome in the system since builder files `ribosome` & `res.zmat` already in project file.
    - In case you want to regenerate builder files (`ribosome` & `res.zmat`), your system must have `fortran` and read the documentaion in ribosome
-   tool folder to rebuild the files.[Note that this step is not required].
+   tool folder to rebuild these files.[Note that this step is not required].
 
 2. **Execution:**
    - Open a terminal window and navigate to the directory containing the project files.
