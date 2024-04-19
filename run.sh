@@ -1,9 +1,14 @@
+# Making builders files ribosme and res.zmat
+cd Ribosome-Tool/src
+f77 -O *.f -o ../../ribosome
+cd ../..
+
 # Make a directory named PDBoutput & ribfiles
 mkdir -p PDBoutput
 mkdir -p ribfiles
 
 # Compiling and executing algo.cpp file
-g++ algo.cpp -o algo && ./algo
+g++ algorithm.cpp -o algo && ./algo
 
 # Navigate to the ribfile folder
 cd ribfiles

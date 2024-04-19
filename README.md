@@ -5,11 +5,9 @@ This project generates multiple RIB files containing random sequence length, ami
 
 ## Usage
 1. **Prerequisites:**
-   - Ensure you have a Linux Operating sysytem or subsystem in your computer.
-   - Ensure that you have a C++ compiler installed on your system.
-   - You do not required ribosome in the system since builder files `ribosome` & `res.zmat` already in project file.
-   - In case you want to regenerate builder files (`ribosome` & `res.zmat`), your system must have `fortran` and read the documentaion in ribosome
-   tool folder to rebuild these files.[Note that this step is not required].
+   - Linux Operating sysytem or subsystem in your computer.
+   - C++ compiler installed.[ if not then run `sudo apt install g++` or (`sudo apt update` and then `sudo apt install build-essential`) to   install ]
+   - fortran installed. [ if not then run `sudo apt install gfortran`]
 
 2. **Execution:**
    - Open a terminal window and navigate to the directory containing the project files.
@@ -18,11 +16,12 @@ This project generates multiple RIB files containing random sequence length, ami
    - ./run.sh
 
 3. **Output:**
-   - After execution, the generated PDB files will be available in the `PDBoutput` directory.
+   - After execution, builder files (`ribosome`) will generated in main directory.
+   - ribfiles and their corresponding PDB files will be generated & available in the `PDBoutput` main directory.
 
 4. **Customization:**
-   - Modify the parameters in `algo.cpp` to adjust the randomness of sequence length, amino acids residues, and angles.
-   - Update the paths and filenames in the base file (`base.sh`) as needed.
+   - Modify the parameters in `algorithm.cpp` to adjust the randomness of sequence length, amino acids residues, and angles.
+   - Update the paths and filenames in the bash file (`run.sh`) as needed.
 
 ## Notes
 - Ensure that the ribosome tool (`ribosome`) and the required input files (`res.zmat`) are correctly referenced and accessible from the provided paths.
