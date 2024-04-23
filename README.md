@@ -1,5 +1,5 @@
 # RandomSequencePDBGenerator 1.0
-**[ Author : Sumit Kumar ]**
+**[ Author : Sumit Kumar ](https://skrsumit250.github.io/Portfolio/)**
 ## Description
 This project generates multiple RIB files containing random sequence length, amino acids residues, and their phi and psi angles. Each RIB file is then utilized to produce its corresponding PDB file using ribosome Linux tools. The entire process is streamlined through a single base file, which manage the compilation, execution, and file generation steps.
 
